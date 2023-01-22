@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+	@ObservedObject private var viewModel: ViewModel = ViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            SwiftUIWebView()
         }
         .padding()
+		.alert("Received the message", isPresented: $viewModel.showAlert) {
+			EmptyView()
+		}
     }
 }
 

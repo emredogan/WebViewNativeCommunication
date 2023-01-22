@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Summary of HTML-->
+<!-- This HTML has a single button and when it is clicked it calls the following -->
+<!-- window.nativeLayer.postMessage({type: 'test'})-->
+<!-- Meaning that it will call the postMessage function from the nativeLayer object -->
+<!-- However this object is not implemented yet we will make a JS injection for this purpose. -->
+<!-- Basically the website tells the app to do something when the button is clicked and sends some parameters with it. -->
+
+<html>
+	<head>
+		<style>
+			input[type=button] {
+				background-color: #FFFF00;
+				border: none;
+				color: #00000F;
+				font-size: 32px;
+				width: 400px;
+				height: 80px;
+				margin: auto;
+				padding: 32px;
+				text-decoration: none;
+			}
+			form {
+				text-align: center;
+				margin: 200 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<!-- This function is only activated when we inject the Javascript. After the injection we will be able to listen when the user clicks and calls the function, result will be in didReceive message-->
+			<input type="button" onclick="window.nativeLayer.postMessage({type: 'test'})" value="Test the JS Bridge"/>
+		</form>
+	</body>
+</html>

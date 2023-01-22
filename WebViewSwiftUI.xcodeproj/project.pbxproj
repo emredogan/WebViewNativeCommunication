@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633E2BBB297AC98D00AE5C74 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BBA297AC98D00AE5C74 /* SwiftUIWebView.swift */; };
+		633E2BBD297AF16E00AE5C74 /* SampleWebview+ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BBC297AF16E00AE5C74 /* SampleWebview+ScriptMessageHandler.swift */; };
+		633E2BBF297AF2A000AE5C74 /* SampleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BBE297AF2A000AE5C74 /* SampleWebView.swift */; };
+		633E2BC1297B03B700AE5C74 /* form.html in Resources */ = {isa = PBXBuildFile; fileRef = 633E2BC0297B03B700AE5C74 /* form.html */; };
+		633E2BC3297D4FE500AE5C74 /* SampleWebView+NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BC2297D4FE500AE5C74 /* SampleWebView+NavigationDelegate.swift */; };
+		633E2BC5297D617500AE5C74 /* secondForm.html in Resources */ = {isa = PBXBuildFile; fileRef = 633E2BC4297D617500AE5C74 /* secondForm.html */; };
+		633E2BC7297D7D2A00AE5C74 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BC6297D7D2A00AE5C74 /* ViewModel.swift */; };
+		633E2BC9297D7DD400AE5C74 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BC8297D7DD400AE5C74 /* AppManager.swift */; };
 		6364FF73297AC54C00998EF7 /* WebViewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364FF72297AC54C00998EF7 /* WebViewSwiftUIApp.swift */; };
 		6364FF75297AC54C00998EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6364FF74297AC54C00998EF7 /* ContentView.swift */; };
 		6364FF77297AC54D00998EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6364FF76297AC54D00998EF7 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		633E2BBA297AC98D00AE5C74 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		633E2BBC297AF16E00AE5C74 /* SampleWebview+ScriptMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleWebview+ScriptMessageHandler.swift"; sourceTree = "<group>"; };
+		633E2BBE297AF2A000AE5C74 /* SampleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWebView.swift; sourceTree = "<group>"; };
+		633E2BC0297B03B700AE5C74 /* form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = form.html; sourceTree = "<group>"; };
+		633E2BC2297D4FE500AE5C74 /* SampleWebView+NavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SampleWebView+NavigationDelegate.swift"; sourceTree = "<group>"; };
+		633E2BC4297D617500AE5C74 /* secondForm.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = secondForm.html; sourceTree = "<group>"; };
+		633E2BC6297D7D2A00AE5C74 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		633E2BC8297D7DD400AE5C74 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		6364FF6F297AC54C00998EF7 /* WebViewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6364FF72297AC54C00998EF7 /* WebViewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSwiftUIApp.swift; sourceTree = "<group>"; };
 		6364FF74297AC54C00998EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				6364FF72297AC54C00998EF7 /* WebViewSwiftUIApp.swift */,
+				633E2BC0297B03B700AE5C74 /* form.html */,
+				633E2BC4297D617500AE5C74 /* secondForm.html */,
+				633E2BC6297D7D2A00AE5C74 /* ViewModel.swift */,
+				633E2BC8297D7DD400AE5C74 /* AppManager.swift */,
 				6364FF74297AC54C00998EF7 /* ContentView.swift */,
+				633E2BBA297AC98D00AE5C74 /* SwiftUIWebView.swift */,
+				633E2BBE297AF2A000AE5C74 /* SampleWebView.swift */,
+				633E2BBC297AF16E00AE5C74 /* SampleWebview+ScriptMessageHandler.swift */,
+				633E2BC2297D4FE500AE5C74 /* SampleWebView+NavigationDelegate.swift */,
 				6364FF76297AC54D00998EF7 /* Assets.xcassets */,
 				6364FF78297AC54D00998EF7 /* Preview Content */,
 			);
@@ -125,7 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633E2BC1297B03B700AE5C74 /* form.html in Resources */,
 				6364FF7A297AC54D00998EF7 /* Preview Assets.xcassets in Resources */,
+				633E2BC5297D617500AE5C74 /* secondForm.html in Resources */,
 				6364FF77297AC54D00998EF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6364FF75297AC54C00998EF7 /* ContentView.swift in Sources */,
+				633E2BBD297AF16E00AE5C74 /* SampleWebview+ScriptMessageHandler.swift in Sources */,
+				633E2BBB297AC98D00AE5C74 /* SwiftUIWebView.swift in Sources */,
 				6364FF73297AC54C00998EF7 /* WebViewSwiftUIApp.swift in Sources */,
+				633E2BC3297D4FE500AE5C74 /* SampleWebView+NavigationDelegate.swift in Sources */,
+				633E2BBF297AF2A000AE5C74 /* SampleWebView.swift in Sources */,
+				633E2BC7297D7D2A00AE5C74 /* ViewModel.swift in Sources */,
+				633E2BC9297D7DD400AE5C74 /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
